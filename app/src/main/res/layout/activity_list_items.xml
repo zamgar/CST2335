@@ -34,7 +34,6 @@
         android:layout_columnWeight="1"
         android:layout_gravity="fill"
         android:contentDescription="@string/imageButtonDescription"
-        android:background="@android:drawable/btn_star_big_on"
-        android:cropToPadding="false" />
+        android:background="@android:drawable/btn_star_big_on" />
 
 </GridLayout>
