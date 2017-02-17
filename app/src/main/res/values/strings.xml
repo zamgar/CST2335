@@ -1,12 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">AndroidLabs</string>
-    <string name="hello_world">Hello World!</string>
-    <string name="ButtonText">I\'m a Button</string>
+    <!-- Login Activity         -->
     <string name="title_activity_login">LoginActivity</string>
-    <string name="loginTextField">Login</string>
-    <string name="passwordTextField">Password</string>
-    <string name="switchText">Enable Something</string>
-    <string name="radioButtonText">RadioButton</string>
-    <string name="checkBoxText">CheckBox</string>
-    <string name="imageButtonDescription">A Picture of a Star!</string>
+    <string name="login_emailTextView">Login</string>
+    <string name="login_emailTextFieldHint">Login</string>
+    <string name="login_passwordTextView">Password</string>
+    <string name="login_loginButton">Login</string>
+
+    <!-- Start Activity         -->
+    <string name="app_name">AndroidLabs</string>
+    <string name="activityStart_hello_world">Hello World!</string>
+    <string name="activityStart_ButtonText">I\'m a Button</string>
+
+    <!-- List Items Activity    -->
+    <string name="listItemsActivity_switchText">Enable Something</string>
+    <string name="listItemsActivity_radioButtonText">RadioButton</string>
+    <string name="listItemsActivity_checkBoxText">CheckBox</string>
+    <string name="listItemsActivity_imageButtonDescription">A Picture of a Star!</string>
+
+    <!-- Dialog Text    -->
+    <string name="dialog_message">Exit the activity?</string>
+    <string name="dialog_title">Confirm</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
 </resources>

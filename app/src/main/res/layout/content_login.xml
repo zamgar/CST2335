@@ -16,32 +16,36 @@
     tools:showIn="@layout/activity_login">
 
     <TextView
-        android:text="@string/loginTextField"
+        android:text="@string/login_emailTextView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/textView1" />
+        android:id="@+id/login_emailTextView" />
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="textEmailAddress"
-        android:ems="10"
-        android:hint="@string/loginTextField"
-        android:id="@+id/editText1" />
+        android:hint="@string/login_emailTextFieldHint"
+        android:id="@+id/login_emailTextField" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/passwordTextField"
-        android:ems="10"
-        android:id="@+id/textView2" />
+        android:text="@string/login_passwordTextView"
+        android:id="@+id/login_passwordTextView" />
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="textPassword"
-        android:id="@+id/editText2"/>
+        android:id="@+id/login_passwordTextField"
+        android:labelFor="@+id/login_passwordTextField"/>
 
+    <Button
+        android:text="@string/login_loginButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/login_loginButton" />
 
 
 </LinearLayout>

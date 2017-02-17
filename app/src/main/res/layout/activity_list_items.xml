@@ -16,24 +16,20 @@
     tools:context="com.mycompany.androidlabs.ListItemsActivity">
 
     <RadioButton
-        android:layout_columnWeight="1"
-        android:layout_gravity="fill"
-        android:text="@string/radioButtonText"/>
+        android:text="@string/listItemsActivity_radioButtonText"
+        android:id="@+id/listItems_radioButton" />
 
     <CheckBox
-        android:layout_columnWeight="1"
-        android:layout_gravity="fill"
-        android:text="@string/checkBoxText"/>
+        android:text="@string/listItemsActivity_checkBoxText"
+        android:id="@+id/listItems_checkBox"/>
 
     <Switch
-        android:layout_columnWeight="1"
-        android:layout_gravity="fill"
-        android:text="@string/switchText"/>
+        android:text="@string/listItemsActivity_switchText"
+        android:id="@+id/listItems_switchButton"/>
 
     <ImageButton
-        android:layout_columnWeight="1"
-        android:layout_gravity="fill"
-        android:contentDescription="@string/imageButtonDescription"
-        android:background="@android:drawable/btn_star_big_on" />
+        android:background="@android:drawable/btn_star_big_on"
+        android:id="@+id/listItemsActivity_imageButton"
+        android:contentDescription="@string/listItemsActivity_imageButtonDescription"/>
 
 </GridLayout>
