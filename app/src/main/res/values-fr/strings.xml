@@ -9,8 +9,9 @@
 
     <!-- Start Activity         -->
     <string name="app_name">LaboratoriosAndroid</string>
-    <string name="activityStart_hello_world">Hola Mundo!</string>
-    <string name="activityStart_ButtonText">Soy un boton</string>
+    <string name="startActivity_hello_world">Hola Mundo!</string>
+    <string name="startActivity_ButtonText">Soy un boton</string>
+    <string name="startActivity_startChatButtonText">Comenzar Chat</string>
 
     <!-- List Items Activity    -->
     <string name="listItemsActivity_switchText">Haz Algo</string>
@@ -23,4 +24,9 @@
     <string name="dialog_title">Confirmar</string>
     <string name="ok">OK</string>
     <string name="cancel">Cancelar</string>
+    <string name="switch_on">Switch ENCENDIDO</string>
+    <string name="switch_off">Switch APAGADO</string>
+
+    <!-- Chat Window Activity   -->
+    <string name="chatWindowActivity_sendButtonText">Send</string>
 </resources>

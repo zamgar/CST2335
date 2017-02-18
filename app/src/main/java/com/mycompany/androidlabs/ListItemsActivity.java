@@ -45,37 +45,37 @@ public class ListItemsActivity extends AppCompatActivity {
         });
 
         //Initializing the switch button
+        //Lab 3 instructions followed for the switchButton and it's toast notification
         Switch switchButton = (Switch)findViewById(R.id.listItems_switchButton);
         switchButton.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
 
-            CharSequence onText = "Switch is On";
-            CharSequence offText = "DOGS";
+            CharSequence onText = getResources().getString(R.string.switch_on);
+            CharSequence offText = getResources().getString(R.string.switch_off);
             int shortDuration = Toast.LENGTH_SHORT;
             int longDuration = Toast.LENGTH_LONG;
             Toast toast;
 
             @Override
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
-
-
                 if(isChecked){
                     toast = Toast.makeText(getApplicationContext() , onText, shortDuration);
-                    toast.show(); //display your message box
+                    toast.show();
                 }else{
                     toast = Toast.makeText(getApplicationContext() , offText, longDuration);
-                    toast.show(); //display your message box
+                    toast.show();
                 }
             }
         });
 
         //Initializing the check box button
+        //Lab 3 instructions followed for the checkBoxButton.
         CheckBox checkBoxButton = (CheckBox)findViewById(R.id.listItems_checkBox);
         checkBoxButton.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
                 if(isChecked){
                     AlertDialog.Builder builder = new AlertDialog.Builder(ListItemsActivity.this);
-                    // 2. Chain together various setter methods to set the dialog characteristics
+
                     builder.setMessage(R.string.dialog_message) //Add a dialog message to strings.xml
 
                             .setTitle(R.string.dialog_title)

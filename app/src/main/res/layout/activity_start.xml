@@ -13,15 +13,23 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/activityStart_hello_world"
+        android:text="@string/startActivity_hello_world"
         android:id="@+id/activityStart_textView"/>
 
     <Button
-        android:text="@string/activityStart_ButtonText"
+        android:text="@string/startActivity_ButtonText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/activityStart_button"
+        android:id="@+id/startActivity_button"
         android:layout_marginTop="15dp"
         android:layout_below="@+id/activityStart_textView"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="@string/startActivity_startChatButtonText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/startActivity_startChatButton"
+        android:layout_below="@+id/startActivity_button"
         android:layout_alignParentStart="true" />
 </RelativeLayout>

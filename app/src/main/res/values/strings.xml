@@ -9,8 +9,9 @@
 
     <!-- Start Activity         -->
     <string name="app_name">AndroidLabs</string>
-    <string name="activityStart_hello_world">Hello World!</string>
-    <string name="activityStart_ButtonText">I\'m a Button</string>
+    <string name="startActivity_hello_world">Hello World!</string>
+    <string name="startActivity_ButtonText">I\'m a Button</string>
+    <string name="startActivity_startChatButtonText">Start Chat</string>
 
     <!-- List Items Activity    -->
     <string name="listItemsActivity_switchText">Enable Something</string>
@@ -23,4 +24,10 @@
     <string name="dialog_title">Confirm</string>
     <string name="ok">OK</string>
     <string name="cancel">Cancel</string>
+    <string name="switch_on">Switch is ON</string>
+    <string name="switch_off">Switch is OFF</string>
+
+    <!-- Chat Window Activity   -->
+    <string name="chatWindowActivity_sendButtonText">Send</string>
+
 </resources>
